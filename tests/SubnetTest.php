@@ -24,7 +24,7 @@ class SubnetTest extends \PHPUnit_Framework_TestCase
         $subnet1 = new Subnet('192.168.1.0/24');
         $subnet2 = new Subnet('192.168.1.0', '255.255.255.0');
 
-        foreach (array($subnet1, $subnet2) as $subnet) {
+        foreach ([$subnet1, $subnet2] as $subnet) {
             $this->assertEquals('192.168.1.0', $subnet->getNetwork());
             $this->assertEquals('24', $subnet->getNetmaskCidr());
             $this->assertEquals('255.255.255.0', $subnet->getNetmask());
@@ -85,6 +85,5 @@ class SubnetTest extends \PHPUnit_Framework_TestCase
         }
 
         $this->fail('Failed to iterate');
-
     }
 }
