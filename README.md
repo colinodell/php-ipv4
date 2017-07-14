@@ -1,7 +1,7 @@
 # IPv4 classes for PHP
 
 [![Latest Version](https://img.shields.io/packagist/v/colinodell/ipv4.svg?style=flat-square)](https://packagist.org/packages/colinodell/ipv4)
-[![Total Downloads](https://img.shields.io/packagist/dt/colinodell/ip4v.svg?style=flat-square)](https://packagist.org/packages/colinodell/ipv4)
+[![Total Downloads](https://img.shields.io/packagist/dt/colinodell/ipv4.svg?style=flat-square)](https://packagist.org/packages/colinodell/ipv4)
 [![Software License](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Build Status](https://img.shields.io/travis/colinodell/php-ipv4/master.svg?style=flat-square)](https://travis-ci.org/colinodell/php-ipv4)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/colinodell/php-ipv4.svg?style=flat-square)](https://scrutinizer-ci.com/g/colinodell/php-ipv4/code-structure)
