@@ -39,7 +39,7 @@ class SubnetIterator implements \Iterator
 
     public function next()
     {
-        ++$this->position;
+        $this->position++;
     }
 
     public function valid()
